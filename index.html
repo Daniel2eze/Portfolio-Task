@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Task</title>
+    <style>
+        .hero {
+            background-color: #F5FCFF;
+            padding: 100px 0;
+        }
+        .hero-text {
+            max-width: 600px;
+        }
+        .hero-image {
+            border-radius: 20px;
+            max-width: 100%;
+        }
+        .hero-btn {
+            color: white;
+            width: 150px;
+        }
+        .hero-text{
+          margin-left: 20px;
+        }
+        .contact-section {
+            padding: 60px 0;
+            background-color: white;
+        }
+        .contact-section h2 {
+            margin-bottom: 30px;
+        }
+        .btn-purple {
+            background-color: #6c63ff;
+            color: white;
+        }
+        .btn-purple:hover {
+            background-color: #5a54d6;
+            color: white;
+        }
+        .testimonials-section {
+            background-color: #F5FCFF;
+            padding: 100px 0;
+        }
+        .footer-section {
+            background-color: #F5FCFF;
+            color: #000;
+        }
+        .footer-section a {
+            color: #000;
+            text-decoration: none;
+        }
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+        .footer-section img {
+            max-width: 100px;
+        }
+        .footer-section i {
+            font-size: 3rem;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand flex-grow-1" href="#">
+                <h3><img src="/assets/nav img.svg" alt=""> John dev,</h3>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+              <div>
+                <ul class="list-unstyled d-lg-flex align-items-center mt-3 gap-5">
+                    <li><a href="#" class="text-decoration-none nav-links">Home</a></li>
+                    <li><a href="#" class="text-decoration-none nav-links">Portfolio</a></li>
+                    <li><a href="#" class="text-decoration-none nav-links">About me</a></li>
+                    <li><a href="#" class="text-decoration-none nav-links">Testimonials</a></li>
+                    <li><a href="#" class="text-decoration-none btn text-decoration-none">Contact me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid hero d-flex align-items-center">
+        <div class="row w-">
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center hero-text mb-4 mb-lg-0">
+                <h5 class="text-muted">Hey, I am John</h5>
+                <h1 class="display-4 fw-bold">I develop dynamic and User-Centered Web Applications</h1>
+                <p class="lead">My expertise spans both front-end and back-end development, enabling me to build comprehensive solutions that meet diverse client needs.</p>
+                <a href="#" class="btn btn-primary hero-btn">Get In Touch</a>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center">
+                <img src="/assets/hero img.svg" alt="Profile picture" class="hero-image img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <!-- card section  -->
+    <div class="container my-5">
+      <h6 class="">My SkillS</h6>
+      <h2 class="mb-4">My Expertise</h2>
+      <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100 text-center shadow" style="background-color:  #F5FCFF;">
+                  <div class="card-body">
+                      <div class="icon mb-3">
+                          <img src="/assets/phone img.svg" alt="" class="me-3" style="width: 50px; display: flex;">
+                      </div>
+                      <h5 class="card-title mb-0">Responsive Design</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100 text-center shadow" style="background-color: #F5FCFF;">
+                  <div class="card-body">
+                      <div class="icon mb-3">
+                        <img src="/assets/front img.svg" alt="" class="me-3" style="width: 50px; display: flex;">
+                      </div>
+                      <h5 class="card-title">Front-End Frameworks</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique..</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100 text-center shadow" style="background-color: #F5FCFF;">
+                  <div class="card-body">
+                      <div class="icon mb-3">
+                        <img src="/assets/testing image.svg" alt="" class="me-3" style="width: 50px; display: flex;">
+                      </div>
+                      <h5 class="card-title">Testing and Debugging</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card h-100 text-center shadow" style="background-color: #F5FCFF;">
+                  <div class="card-body">
+                      <div class="icon mb-3">
+                        <img src="/assets/cloud img.svg" alt="" class="me-3" style="width: 50px; display: flex;">
+                      </div>
+                      <h5 class="card-title">Cloud Services</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- about section -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+            <div class="profile-image">
+                <img src="/assets/About me img.svg" alt="Profile Picture" class="img-fluid rounded-circle">
+            </div>
+        </div>
+        <div class="col-md-8">
+          <h6>About</h6>
+            <h1>About Me</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis. Lorem eu neque, tristique quis duis. Nibh scelerisque ac adipiscing velit non nulla in amet pellentesque.
+            </p>
+            <p>
+              Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- my potfolio section -->
+
+<div class="container my-5">
+  <h6>Recent project</h6>
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>My Portfolio</h2>
+    <a class="btn btn-white" style="background-color: #7E69D3; color: white;" href="#">View My Github</a>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/assets/card1.svg" class="card-img-top" alt="Project 1">
+        <div class="card-body">
+          <h5 class="card-title">Ahuse</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          <a href="#" class="btn btn-white">View Website <img src="/assets/arrow 3 1mg.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/assets/card2.svg" class="card-img-top" alt="Project 2">
+        <div class="card-body">
+          <h5 class="card-title">App Dashboard</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          <a href="#" class="btn btn-white">View Website <img src="/assets/arrow4img.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card mb-4 shadow-sm">
+        <img src="/assets/card3.svg" class="card-img-top" alt="Project 3">
+        <div class="card-body">
+          <h5 class="card-title">Easy Rent</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+          <a href="#" class="btn btn-white">View Website <img src="/assets/arrow2 img.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonials Section -->
+<div class="container-fluid testimonials-section">
+  <div class="container my-5">
+      <h6>Clients Feedback</h6>
+      <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2>Customers testimonials</h2>
+      </div>
+      <div class="row">
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-body" style="background-color: #F5FCFF;">
+                      <img src="/assets/Stars.svg" alt="" class="img-fluid mb-2">
+                      <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                      <img src="/assets/dianne.svg" alt="" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-body" style="background-color: #F5FCFF;">
+                      <img src="/assets/Stars (2).svg" alt="" class="img-fluid mb-2">
+                      <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                      <img src="/assets/kristin.svg" alt="" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                  <div class="card-body" style="background-color: #F5FCFF;">
+                      <img src="/assets/Stars (2).svg" alt="" class="img-fluid mb-2">
+                      <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra."</p>
+                      <img src="/assets/kathryn.svg" alt="" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="container-fluid contact-section">
+  <div class="container my-5">
+      <h2 class="text-center">Contact me</h2>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <form>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="firstName">First name</label>
+                      <input type="text" class="form-control" id="firstName" placeholder="First name">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="lastName">Last name</label>
+                      <input type="text" class="form-control" id="lastName" placeholder="Last name">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Email">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-group">
+                      <label for="phone">Phone number</label>
+                      <input type="text" class="form-control" id="phone" placeholder="Phone number">
+                  </div>
+              </div>
+          </div>
+          <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Type your message..."></textarea>
+          </div>
+          <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="terms">
+              <label class="form-check-label" for="terms">I accept the terms</label>
+          </div>
+          <button type="submit" class="btn btn-purple btn-block">Submit</button>
+      </form>
+  </div>
+</div>
+
+<!-- Footer Section -->
+ <footer>
+<div class="container-fluid footer-section py-4">
+  <div class="container text-center">
+      <h5><img src="/assets/nav img.svg" alt="" class="img-fluid mb-3 text-end">John Dev</h5>
+      <div class="col-12 col-lg-4 mb-4 mb-lg-0">
+        <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 gap-lg-4">
+          <p class="mb-0">Home</p>
+          <p class="mb-o">Portfolio</p>
+          <p class="mb-0">About me</p>
+          <p class="mb-0">Contact</p>
+          <p class="mb-0">Testimonials</p>
+          <p" class="mb-0">Portfolio</p>
+          </div>
+      </div>
+      <div class="d-flex justify-content-center mt-2">
+        <a href="#" class="mx-2"><i class="fab fa-facebook-f"></i> <img src="/assets/Facebook (1).svg" alt=""></a>
+        <a href="#" class="mx-2"><i class="fab fa-twitter"></i> <img src="/assets/Twitter (2).svg" alt=""></a>
+        <a href="#" class="mx-2"><i class="fab fa-instagram"></i><img src="/assets/Instagram.svg" alt=""></a>
+        <a href="#" class="mx-2"><i class="fab fa-linkedin-in"></i> <img src="/assets/LinkedIn.svg" alt=""></a>
+    </div><hr>
+    <div class="row ">
+      <div class="text-center text-lg-start mb-3 mb-lg-0">
+      <p class="mb-0">Made with ❤️ by Airdokan</p>
+    </div>
+      <div class="d-flex flex-column flex-lg-row justify-content-center gap-2 gap-lg-4 text-center text-lg-end">
+          <p class="mb-0">Privacy Policy</p>
+          <p class="mb-0 ">Terms of Service</p>
+          <p class="mb-0">Cookies Settings</p>
+      </div>
+    </div>
+    <div class="col-12 text-center mt-3">
+      <p>&copy; 2024</p>
+    </div>
+  </div>
+</div>
+</footer>
+
+<!-- Font Awesome for social media icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
